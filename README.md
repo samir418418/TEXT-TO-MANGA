@@ -40,9 +40,11 @@ The background-video picker plays a selected local video in the current page; it
 
 ## Publish the free static prototype
 
-1. Create a GitHub account and a new repository, then upload `text to manga.HTML`, `styles.css`, `app.js`, and this README.
-2. In the repository settings, enable **GitHub Pages** for the `main` branch and the root folder.
-3. Open the Pages URL GitHub provides. Since the filename contains spaces, keep the URL-encoded name (`text%20to%20manga.HTML`) or rename the file to `index.html` in the repository so the site opens at its home URL.
+1. Create a GitHub repository and upload **all four website files** into the repository's top-level folder: `index.html`, `styles.css`, `app.js`, and `README.md`. `index.html` is the Pages homepage and uses the separate CSS and JavaScript files beside it. Keep filenames lowercase and exactly as shown.
+2. In the repository settings, open **Pages**, select the `main` branch and `/ (root)` folder, then save.
+3. Wait for the Pages deployment to finish, then open the root URL GitHub provides (for example, `https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/`). Do not open the `.md` README or a raw-file URL.
+
+The original `text to manga.HTML` is included for local use. GitHub Pages needs `index.html` in the publishing folder to serve the site at its root.
 
 GitHub Pages hosts static files; the browser-based storyboard and local downloads can run there, but data remains on each visitor's device. No account or image-generation API should be exposed to a static webpage.
 

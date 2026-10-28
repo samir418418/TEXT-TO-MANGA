@@ -1,10 +1,10 @@
 # MangaForge AI
 
-A beginner-friendly, zero-cost-to-run manga storyboard prototype. The frontend is a single HTML file: no build step, package install, API key, or paid service is required.
+A beginner-friendly, zero-cost-to-run manga storyboard prototype. The frontend is split into three beginner-friendly files—HTML, CSS, and JavaScript—with no build step, package install, API key, or paid service required.
 
 ## Run on your computer
 
-1. Install Python if it is not already installed, or open `text to manga.HTML` directly in a modern browser.
+1. Keep `text to manga.HTML`, `styles.css`, and `app.js` together in the same folder. Install Python if it is not already installed, or open `text to manga.HTML` directly in a modern browser.
 2. For the most reliable project saving, start Python's built-in local web server in PowerShell:
 
    ```powershell
@@ -40,7 +40,7 @@ The background-video picker plays a selected local video in the current page; it
 
 ## Publish the free static prototype
 
-1. Create a GitHub account and a new repository, then upload `text to manga.HTML` and this README.
+1. Create a GitHub account and a new repository, then upload `text to manga.HTML`, `styles.css`, `app.js`, and this README.
 2. In the repository settings, enable **GitHub Pages** for the `main` branch and the root folder.
 3. Open the Pages URL GitHub provides. Since the filename contains spaces, keep the URL-encoded name (`text%20to%20manga.HTML`) or rename the file to `index.html` in the repository so the site opens at its home URL.
 
